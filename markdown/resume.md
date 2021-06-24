@@ -1,100 +1,91 @@
-Johnny Coder
-============
+# Sergiy Fomin
 
-----
+### Software Developer
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+--
 
-----
+373 Front Street West
+Canada, ON. M5V 3R7
 
-Education
----------
+sergiy.fomin@outlook.com
+[GitHub](https://github.com/FominSergiy)
+[LinkedIn](https://www.linkedin.com/in/sergiy-fomin/)
+647-778-5978
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+--
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+## Skills
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+Languages & Libs
+: Python, Javacript, React, Redux, Apex
 
-    *Minor: Awesomeology*
+Back-end
+: REST, HTTP, JWT, OAuth
 
-Experience
-----------
+Deployment
+: Bash, Git, npm, sfdx
 
-**Your Most Recent Work Experience:**
+Cloud
+: AWS-Azure serverless, CloudFormation & Azure ARM Templates
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Databases
+: PostgreSQL, Azure Table Storage (no-SQL), SOQL
 
-* First item
+## Experience
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+**02.2021 - present**
+: **Developer | Sourced Group**
 
-**That Other Job You Had**
+- Architected and Developed an integration between AWS and Salesforce
+  - Salesforce-side UI written in Javascript LWC and a controller using Apex
+  - AWS-side is a serverless Lambda function in Python
+  - Auth handled by a cononical request and JWT on the Salesforce side
+  - Extensive Logging with use of SNS to notify business stakeholders
+  - Used Jest, Pytest, and Apex Tests for unit testing
+  - AWS infrastructure deployed with CloudFormation
 
-Also with a short description.
+**10.2019 - 02.2021**
+: **Senior Business Operations Analyst | Sourced Group**
 
-Technical Experience
---------------------
+- Implemented Salesforce CRM and FinancialForce PSA
+  - Developed Apex classes to handle Salesforce-side data-wrangling
+  - Developed Apex classes to support Salesforce user and license management
+  - Developed LWC UIs and Apex controllers to extend Salesforce-native functionality
+- Developed Python scripts for data-wrangling
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+**05.2018 - 10.2019**
+: **Risk Analyst | Progressa**
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+- Extract, process, and analyze data using PostgreSQL, Tableau, and Python
+- Write Python scripts to automate repetitive operational processes
+  - working with Python Core, Pandas and APIs
+- Provide loan portfolio analysis, projections, correlation and sensitivity analysis
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+## Side Projects Highlights
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+**DOGE Mage**
+: [link](https://fominsergiy.github.io/dogeMage/) | [git](https://github.com/FominSergiy/dogeMage)
+An epic React-Redux game witn an Azure serverless no-SQL back-end.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+- Two Azure Functions-based Python APIs to process scoreboard requests
+- Azure Table Storage to store game results
+- CORS setup in Azure to prevent unauthorized use of APIs
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+**Twitch Streamers**
+: [link](https://fominsergiy.github.io/twitch_api/) | [git](https://github.com/FominSergiy/twitch_api)
+A React-Redux app to show the top twitch streams
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+- AWS Lambda-based Python API to manage Twitch's Bearer Token
 
-[ref]: https://github.com/githubuser/superlongprojectname
+## Certifications
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+- AWS Certified Cloud Practitioner
+- Microsoft Certified: Azure Fundamentals
+- Microsoft Certified: Azure Data Fundamentals
 
-* Human Languages:
+## Education
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+**05.2014 - 05.2018**
+: **Bachelor of Commerce:International Business | Humber College, Toronto**
 
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+- Recepient of the Board of Governors Award
