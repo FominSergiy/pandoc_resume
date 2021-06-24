@@ -7,8 +7,8 @@
 % https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
 \startmode[*mkii]
-  \enableregime[utf-8]  
-  \setupcolors[state=start]
+\enableregime[utf-8]
+\setupcolors[state=start]
 \stopmode
 $if(mainlang)$
 \mainlanguage[$mainlang$]
@@ -24,9 +24,9 @@ $endif$
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
-                 backspace=20mm, cutspace=0mm,
-                 topspace=10mm, bottomspace=20mm,
-                 header=0mm, footer=0mm]
+  backspace=20mm, cutspace=0mm,
+  topspace=10mm, bottomspace=20mm,
+  header=0mm, footer=0mm]
 
 %\setuppagenumbering[location={footer,center}]
 
@@ -34,13 +34,10 @@ $endif$
 
 \setupwhitespace[medium]
 
-\setupblackrules[width=31mm, color=rulecolor]
-
 \setuphead[chapter]      [style=\tfd]
 \setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
-\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
-                          before={\leavevmode\blackrule\hspace}]
-\setuphead[subsubsection][style=\bf]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right]
+\setuphead[subsubsection][style=\bf, color=titlegrey, align=middle, topspace=0]
 
 $if(number-sections)$
 $else$
@@ -50,9 +47,9 @@ $endif$
 %\setupdescriptions[width=10mm]
 
 \definedescription
-  [description]
-  [headstyle=bold, style=normal,
-   location=hanging, width=18mm, distance=14mm, margin=0cm]
+[description]
+[headstyle=bold, style=normal,
+  location=hanging, width=25mm, distance=14mm, margin=0cm]
 
 \setupitemize[autointro, packed]    % prevent orphan list intro
 \setupitemize[indentnext=no]
@@ -63,13 +60,13 @@ $endif$
 \setuptables[textwidth=max, HL=none]
 \setupxtable[frame=off,option={stretch,width}]
 
-\setupthinrules[width=15em] % width of horizontal rules
+\setupthinrules[width=13em] % width of horizontal rules
 
 \setupdelimitedtext
-  [blockquote]
-  [before={\setupalign[middle]},
-   indentnext=no,
-  ]
+[blockquote]
+[before={\setupalign[middle]},
+  indentnext=no,
+]
 
 $if(toc)$
 \setupcombinedlist[content][list={$placelist$}]
@@ -82,17 +79,17 @@ $endfor$
 \starttext
 $if(title)$
 \startalignment[center]
-  \blank[2*big]
-  {\tfd $title$}
+\blank[2*big]
+{\tfd $title$}
 $if(author)$
-  \blank[3*medium]
-  {\tfa $for(author)$$author$$sep$\crlf $endfor$}
+\blank[3*medium]
+{\tfa $for(author)$$author$$sep$\crlf $endfor$}
 $endif$
 $if(date)$
-  \blank[2*medium]
-  {\tfa $date$}
+\blank[2*medium]
+{\tfa $date$}
 $endif$
-  \blank[3*medium]
+\blank[3*medium]
 \stopalignment
 $endif$
 $for(include-before)$
